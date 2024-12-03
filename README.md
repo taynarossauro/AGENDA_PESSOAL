@@ -2,6 +2,10 @@
 
 Este projeto implementa uma aplicação de **Agenda Pessoal** utilizando **Java** e **Swing** para a interface gráfica e **MySQL** como banco de dados, gerenciado por meio do **DBeaver**. A aplicação foi configurada como um projeto **Maven**, com dependências para conexão **JDBC** e gerenciamento de dados.
 
+### 🖼️ Exemplo da Interface Gráfica
+![Interface Gráfica](system.png)
+
+
 ---
 
 ## 🎯 Objetivo
@@ -21,7 +25,23 @@ Criar uma agenda pessoal que permita ao usuário realizar operações básicas d
 
 ## 📂 Estrutura do Projeto
 
-agenda-pessoal/ ├── src/main/java/ │ ├── dao/ │ │ └── ContatoDAO.java # Gerenciamento de operações no banco │ ├── models/ │ │ └── Contato.java # Modelo representando o contato │ ├── ui/ │ │ └── MainFrame.java # Interface gráfica da aplicação │ └── Main.java # Classe principal para execução ├── pom.xml # Configuração Maven
+agenda-pessoal/ 
+├── src/main/java/ 
+│ 
+├── dao/ 
+│
+│ └── ContatoDAO.java # Gerenciamento de operações no banco 
+│ 
+├── models/ 
+│ 
+│ └── Contato.java # Modelo representando o contato 
+│ 
+├── ui/ 
+│ 
+│ └── MainFrame.java # Interface gráfica da aplicação 
+│ 
+└── Main.java # Classe principal para execução 
+├── pom.xml # Configuração Maven
 
 
 ---
@@ -50,3 +70,7 @@ CREATE TABLE contatos (
     nome VARCHAR(100) NOT NULL,
     telefone VARCHAR(20) NOT NULL
 );
+```
+
+### 🖼️ Exemplo do Banco de Dados no DBeaver
+![Banco de Dados](database.png)
