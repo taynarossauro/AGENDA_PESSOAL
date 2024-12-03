@@ -9,7 +9,7 @@ import com.exemplo.agenda.view.ContatoView;
  * Classe principal que inicializa a aplicação Agenda de Contatos.
  * Responsável por criar as instâncias dos componentes MVC e iniciar a interface.
  *
- * @author Daniel Ohata
+ * @author Taynara Raquel
  * @version 1.0
  */
 public class AgendaContatos {
